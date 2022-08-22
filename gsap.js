@@ -92,7 +92,7 @@ t.from('.intro_container', {
  .from('.introduction', {
     paddingBottom: '50rem',
     scrollTrigger:{
-        trigger:'.intro_image',
+        trigger:'.view-all',
         start:'bottom 80%',
         scrub:2
 } 
