@@ -9,14 +9,16 @@
     font-family: ES Allianz,helvetica,arial,sans-serif;
   }
   @import url('http://fonts.cdnfonts.com/css/liquidism-part-2');
-  
+
+  @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
   .hcontainer{
     background-color: #F3F3F3;
     background-image: url(pics/hero-image.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
-    font-family: 'Liquidism part 2', sans-serif; 
+    font-family: 'Creepster', cursive;
     width: 100%;
 }
     
@@ -170,7 +172,7 @@ overflow: hidden;
 }
 
 .h2-meet{
-  font-family: 'Liquidism part 2', sans-serif; 
+  font-family:'Creepster', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: clamp(5rem, 6rem, 7rem);
@@ -248,7 +250,7 @@ margin-left: 20rem;
 }
 
 .road_head_text{
-  font-family: 'Liquidism part 2', sans-serif; 
+  font-family: 'Creepster', cursive; 
   font-style: normal;
   font-weight: 400;
   font-size: clamp(5rem, 6rem, 7rem);
@@ -362,6 +364,8 @@ border: 2px solid transparent;
     background-image: url(pics/footer.png);
     background-position:bottom;
     background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: scroll;
     width: 100%;
     height: 100%;
     padding-bottom: 70vh;
@@ -417,7 +421,7 @@ gap: 5rem;
   margin-bottom: -20px;
 }
 .intro_header_h2 h2{
-  font-family: 'Liquidism part 2', sans-serif; 
+  font-family: 'Creepster', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: clamp(7rem, 8rem, 10rem);
