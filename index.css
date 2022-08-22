@@ -12,8 +12,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
   .hcontainer{
-    background-color: #F3F3F3;
-    background-image: url(pics/hero-image.png);
+ 
+    /* background-image: url(pics/hero-image.png); */
+    background: linear-gradient(rgba(11, 70, 3, 0.438), rgba(11, 70, 3, 0.438)), url(pics/heroape.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -42,7 +43,7 @@
     font-weight: 400;
     font-size: clamp(10rem, 5rem, 9rem);
     line-height: 90px;
-    color: #101001;
+    color: #D1DE3F;
   }
 
   .sidenav{
@@ -57,7 +58,7 @@ width: 70px;
 border-left: .5px solid #101001;
 top: 0;
 position: absolute;
-backdrop-filter: blur(20px);
+backdrop-filter: blur(10px);
   }
 
   .copyright{
@@ -72,7 +73,6 @@ transform: rotate(180deg);
   }
   .hero-content{
     display: flex;
-    backdrop-filter: blur(1.5px);
     position: absolute;
     bottom: 30px;
     align-items: flex-end;
@@ -85,11 +85,10 @@ transform: rotate(180deg);
     font-weight: 400;
     font-size: clamp(6rem, 7rem, 8rem);
     line-height: clamp(6rem, 7rem, 8rem);
-    color: #101001;
+    color: #f8f8f8;
     letter-spacing: 20px;
     overflow: hidden;
     width: 100%;
-    
 }
 .scont{
   overflow: hidden;
@@ -100,13 +99,13 @@ transform: rotate(180deg);
 .herosmall{
   font-family: ES Allianz,helvetica,arial,sans-serif;
     text-align: center;
-    color: #101001;
-    backdrop-filter: 2;
+    color: #F3F3F3;
+    opacity: 0.7;
 font-style: normal;
 font-weight: normal;
 font-size: clamp(1.65rem, 1.7rem, 1.8rem);
 line-height:clamp(1.6rem, 1.7rem, 1.8rem);
-max-width: 40ch ;
+
 }
 
 @media (max-width: 700px){
