@@ -125,9 +125,9 @@ line-height:clamp(14px, 1.7rem, 1.8rem);
       }
 
       .hero-name{
-        font-size: clamp(8rem, 9rem, 10rem);
+        font-size: clamp(12rem, 13rem, 15rem);
         letter-spacing: 20px;
-     
+        line-height: 12rem;
     }
     
     .herosmall{
