@@ -97,14 +97,13 @@ transform: rotate(180deg);
 
 
 .herosmall{
-  font-family: ES Allianz,helvetica,arial,sans-serif;
     text-align: center;
     color: #F3F3F3;
-    opacity: 0.7;
+    opacity: 0.9;
 font-style: normal;
 font-weight: normal;
-font-size: clamp(1.65rem, 1.7rem, 1.8rem);
-line-height:clamp(1.6rem, 1.7rem, 1.8rem);
+font-size: clamp(14px, 1.7rem, 1.8rem);
+line-height:clamp(14px, 1.7rem, 1.8rem);
 
 }
 
@@ -132,14 +131,11 @@ line-height:clamp(1.6rem, 1.7rem, 1.8rem);
     }
     
     .herosmall{
-       
         text-align: center;
-        color: #101001;
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
-    line-height:10px;
-    max-width: 40ch ;
+    font-size: 16px;
+    line-height: 16px;
     }
 }
 /* 
